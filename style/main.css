@@ -1,0 +1,161 @@
+/***********Reset**********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***********Ajustes gerais**********/
+body{
+    background: #000;
+    font-family: "Nunito";
+}
+
+/***********Header, nav e elementos da nav**********/
+header {
+    background: linear-gradient(rgba(0, 0, 0, .80), rgba(0, 0, 0, .50)100%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icons-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 40px 0 500px;
+}
+
+.icon {
+    margin: 15px;
+}
+
+.icon-pic {
+    width: 20px;
+    filter: invert(1);
+}
+
+.logo {
+    margin-left: 30px;
+    color: #fff;
+    font-family: "Nova Square";
+    font-size: 30px;
+}
+
+.logo, .links-wrapper, .icons-wrapper {
+    margin-top: 15px;
+}
+
+.logo, .welcome, .carousel {
+    padding: 0 20px;
+}
+
+/***********Corpo**********/
+.background-wrapper {
+    background: url(/img/welcome.png);
+    background-size: 100vw 90vh;
+    background-repeat: no-repeat;
+}
+
+.welcome {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%);
+    font-size: 16px;
+    height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Nunito";
+    color: #fff;
+}
+
+.welcome .description {
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.welcome .title {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: "Oxygen";
+}
+
+.welcome-text {
+    margin-left: 10px;
+    width: 60vw;
+}
+
+.button {
+    background-color: rgba(0,0,0,.70);
+    border: none;
+    color: #fff;
+    font-family: "Nunito";
+    width: 15vw;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.button i{
+    margin-right: 8px;
+}
+
+button:nth-child(1){
+    filter: invert(1);
+}
+
+.welcome .container {
+    width: 70%;
+}
+
+/***********Carousel**********/
+.box-item {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.item {
+    width: 400px;
+    height: 250px;
+}
+
+.classic-item {
+    width: 400px;
+    height: 400px;
+}
+
+.carousel {
+    margin-top: 5px;
+}
+
+.carousel-text {
+    font-size: 20px;
+    font-family: 'Fjalla One';
+    color: #fff;
+    margin-left: 10px;
+}

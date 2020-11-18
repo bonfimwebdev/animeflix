@@ -1,0 +1,26 @@
+@media screen and (max-width: 700px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .logo, .links-wrapper, .icons-wrapper {
+        margin: 10px auto;
+    }
+
+    .welcome, .container, .buttons-wrapper {
+        margin: auto;
+    }
+
+    .button {
+        margin-top: 5px;
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 50%;
+    }
+}
